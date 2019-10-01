@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.MemoryCard {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+.MemoryCard:hover {
+  border: 2px solid greenyellow;
+}
+
+.MemoryBoard {
+  display: flex;
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url("https://wallpapercave.com/wp/Xjxid8w.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.alert-fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 9999;
+  border-radius: 0px;
+}

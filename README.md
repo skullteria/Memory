@@ -1,2 +1,0 @@
-# Memory
-Created with CodeSandbox
